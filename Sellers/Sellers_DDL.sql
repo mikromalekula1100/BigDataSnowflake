@@ -2,7 +2,7 @@ CREATE TABLE D_SELLER_COUNTRIES (
     seller_country_id SERIAL PRIMARY KEY,
     seller_country_name VARCHAR(50) NOT NULL
 );
-
+   
 CREATE TABLE D_SELLER_POSTAL_CODES (
     seller_postal_code_id SERIAL PRIMARY KEY,
     seller_postal_code VARCHAR(50) NOT NULL
@@ -12,6 +12,8 @@ CREATE TABLE D_SELLER_EMAILS (
     seller_email_id SERIAL PRIMARY KEY,
     seller_email VARCHAR(50) NOT NULL
 );
+
+
 
 CREATE TABLE D_SELLERS (
     seller_id SERIAL PRIMARY KEY,
